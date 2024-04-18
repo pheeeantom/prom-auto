@@ -1,0 +1,25 @@
+.UsersGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-flow: row dense;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+@media (max-width: 1080px) {
+    .UsersGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 920px) {
+    .UsersGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 520px) {
+    .UsersGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

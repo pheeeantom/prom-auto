@@ -1,0 +1,31 @@
+.ControlsFilter {
+    width: 400px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.ControlsFilter-row {
+    padding-top: 20px;
+}
+
+.ControlsFilter_muted {
+    color: #878787;
+}
+
+.ControlsFilter_white {
+    color: white;
+}
+
+.ControlsFilter-clear {
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+@media (max-width: 520px) {
+    .ControlsFilter {
+        width: 95vw;
+    }
+}

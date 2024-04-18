@@ -1,0 +1,9 @@
+.Content {
+    padding: 1.5vw 10vw;
+}
+
+@media (max-width: 920px) {
+    .Content {
+        padding: 1.5vw 2.5vw;
+    }
+}

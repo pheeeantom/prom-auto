@@ -1,0 +1,89 @@
+.SelectFilter {
+    width: 400px;
+}
+
+.SelectFilter-wrapper {
+    position: absolute;
+}
+
+.SelectFilter-list {
+    width: 400px;
+    color: white;
+    background-color: #545454;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+.SelectFilter-list div {
+    padding: 10px 15px;
+    font-family: "Roboto", sans-serif;
+    font-Weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SelectFilter-list div:hover {
+    background-color: #7B7B7B;
+    border-radius: 10px;
+}
+
+.SelectFilter-list img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.SelectFilter-input {
+    border-radius: 10px;
+    border-width: 0;
+    height: 50px;
+    width: 330px;
+    padding-right: 60px;
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-Weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.SelectFilter-input {
+    background: url(http://localhost:8020/close.svg), #545454;
+    background-repeat: no-repeat;
+    background-position: 100% 10px;
+}
+
+.SelectFilter-input:hover {
+    background: url(http://localhost:8020/close.svg), #7B7B7B;
+    background-repeat: no-repeat;
+    background-position: 100% 10px;
+}
+
+.SelectFilter-input:focus {
+    background: url(http://localhost:8020/open.svg), #545454;
+    background-repeat: no-repeat;
+    background-position: 100% 10px;
+}
+
+.SelectFilter-input::placeholder {
+    color: white;
+}
+
+.SelectFilter-input:hover::placeholder, .SelectFilter-input:focus::placeholder {
+    color: black;
+}
+
+@media (max-width: 520px) {
+    .SelectFilter-list, .SelectFilter {
+        width: 95vw;
+    }
+    .SelectFilter-input {
+        width: 78.375vw;
+        padding-right: 14.25vw;
+        padding-left: 2.375vw;
+    }
+}

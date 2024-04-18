@@ -1,0 +1,61 @@
+.UserCard {
+    background-color: #2C2D2D;
+    padding: 15px;
+    border-radius: 20px;
+    /*height: 170px;*/
+}
+
+.UserCard-row, .UserCard-field {
+    display: flex;
+    align-items: center;
+}
+
+.UserCard-avatar {
+    width: 70px;
+    height: 70px;
+    background-color: #545454;
+    border-radius: 10px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.UserCard-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.UserCard-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+.UserCard-username {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.UserCard-field {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    padding-top: 15px;
+}
+
+.UserCard-field img {
+    padding-right: 5px;
+}
+
+.UserCard_active {
+    grid-row-end: span 2;
+    /*height: 410px;*/
+}
